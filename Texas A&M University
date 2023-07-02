@@ -1,0 +1,189 @@
+## Uni_Texas.R | 2023 07 02
+## Colors of the Texas A&M University, USA
+## -----------------------------------------------
+
+# Information: ------
+
+# uni_pals: "uni_texas"
+# inst: "Texas A&M University"
+# inst_alt: "Universit\u00E4t Texas"
+# country: USA
+# URL: "https://www.tamu.edu"
+
+# Color source:
+
+# URL: <https://brandguide.tamu.edu/web/web-color-palette.html>
+
+
+# Colors: ------
+
+# Primary colors
+#
+# "The colors below are for digital, on-screen materials. Both RGB values and HEX codes have been provided. Every display is different, so there may be slight variation across devices."
+#
+# Primary color 1 "red"
+# RGB 80/ 0/ 0
+# HEX #500000
+
+col_red <- "#500000"  
+
+# Primary color 2 "white"
+# RGB 255/ 255/ 255
+# HEX #FFFFFF
+
+
+col_white <- "#FFFFFF"
+
+# Secondary color
+# This palette is the range of secondary accent colors that work in conjunction with the main palette colors in small proportions.
+
+# Secondary color 1 "black"
+# RGB 60/ 0/ 0
+# HEX #3c0000
+
+
+col_black <- "#3c0000"
+
+# Secondary color 2 "blue"
+# RGB 0/ 60/ 113
+# HEX #003C71
+
+
+col_blue <- "#003C71"
+
+# Secondary color 3 "Green"
+# RGB 91/ 98/ 54
+# HEX #5B6236
+
+col_green <- "#5B6236"
+
+# Secondary color 4 "brown"
+# RGB 116/79/40
+# HEX #744F28
+
+col_brown <- "#744F28"
+
+# Secondary color 5 "light brown"
+# RGB 153/ 133/ 66
+# HEX #998542
+
+
+col_light brown <- "#998542"
+
+# Secondary color 6 "light grey 1"
+# RGB 214/210/196
+# HEX #D6D3C4
+
+col_light grey_1 <- "#D6D3C4"
+
+# Secondary color 7 "light grey 2"
+# RGB 246/246/246
+# HEX  #f6f6f6
+
+col_light grey_2 <- "#f6f6f6"
+
+# Secondary color 8 "light grey 3"
+# RGB 234/234/234
+# HEX   #eaeaea
+
+col_light grey_3 <- "#eaeaea"
+
+# Secondary color 9 "light grey 4"
+# RGB 209/209/209
+# HEX  #d1d1d1
+
+col_light grey_4 <- "#d1d1d1"
+
+# Secondary color 10 "dark grey 1"
+# RGB 167/167/167
+# HEX  #a7a7a7
+
+col_dark grey_1 <- "#a7a7a7"
+
+# Secondary color 11 "dark grey 2"
+# RGB 112/112/112
+# HEX  #707070
+
+col_dark grey_2 <- "#707070"
+
+# Secondary color 12 "dark grey 3"
+# RGB 62/62/62
+# HEX  #3e3e3e
+
+col_dark grey_3 <- "#3e3e3e"
+
+# Secondary color 13 "dark grey 4"
+# RGB 51/51/51
+# HEX  #333333
+
+col_dark grey_4 <- "#333333"
+
+# Secondary color 14 "dark grey 5"
+# RGB 32/32/32
+# HEX  #202020
+
+col_dark grey_5 <- "#202020"
+
+# Secondary color 15 "dark grey 6"
+# RGB 20/20/20
+# HEX   #141414
+
+
+col_dark grey_6 <- "#141414"
+
+# Secondary color 16 "black"
+# RGB 0/0/0
+# HEX  #000000
+
+col_black <- "#000000"
+
+# 'Accent colors are used in small amounts to highlight or balance compositional elements.'
+
+# Accent color 1 "yellow"
+# RGB 252/227/0
+# HEX  #FCE300 
+
+col_yellow <- "#FCE300"
+
+# Accent color 2 "red"
+# RGB 228/0/43
+# HEX  #E4002B 
+
+col_red <- "#E4002B"
+
+# Accent color 3 "brown"
+# RGB 115/47/47
+# HEX  #732F2F
+
+col_brown <- "#732F2F"
+
+#' \code{uni_texas} uses the HEX color definition.
+#'
+#' @return
+#' A named vector of colors (HEX/HTML codes of type character).
+#'
+#' @author
+#' \strong{unicol}, 2023-07_02.
+#'
+#' @source
+#' Color definitions are based on the
+#' \href{https://brandguide.tamu.edu/web/web-color-palette.html}.
+#'
+#' @examples
+#' uni_texas
+#' unikn::seecol(uni_texas, main = "Primary colors Texas A&M University") # view color palette
+#'
+#' @family university color palettes
+#'
+#' @seealso
+#' \code{\link{seecol}} for viewing and comparing color palettes;
+#' \code{\link{usecol}} for using color palettes;
+#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link{grepal}} for finding named colors.
+#'
+#' @export
+
+# - etc.
+
+## eof. ----------
