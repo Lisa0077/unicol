@@ -1,0 +1,106 @@
+## Uni_Maryland.R | 2023 07 02
+## Colors of the University of Maryland, College Park, USA
+## -----------------------------------------------
+
+# Information: ------
+
+# uni_pals: "uni_maryland"
+# inst: "University of Maryland"
+# inst_alt: "Universit\u00E4t Maryland"
+# country: USA
+# URL: "https://umd.edu"
+
+# Color source:
+
+# URL: <https://brand.umd.edu/colors>
+
+
+# Colors: ------
+
+# Primary colors
+#
+# "The University of Maryland's core brand colors are red, white, black and gold. Inspired by the Maryland state flag, these colors reflect our role as Maryland's flagship university. The university encourages the use of all four colors as they represent a core element of its visual identity."
+#
+# Primary color 1 "Maryland Red"
+# RGB 227/25/51
+# HEX #e21833
+
+col_Maryland Red <- "#e21833"  
+
+# Primary color 2 "Maryland Gold"
+# RGB 255/210/0
+# HEX #ffd200
+
+col_Maryland Gold <- "#ffd200"
+
+# Primary color 3 "White"
+# RGB 255/255/255
+# HEX #ffffff
+
+col_White <- "#ffffff"
+
+# Primary color 4 "Black"
+# RGB 0/0/0
+# HEX #000000
+
+col_Black <- "#000000"
+
+# Neutral color
+
+# Neutral color 1 "Dark Gray"
+# RGB 69/69/69
+# HEX #454545
+
+
+col_Dark Grey <- "#454545"
+
+# Neutral color 2 "Medium Gray"
+# RGB 128/128/128
+# HEX #7f7f7f
+
+
+col_Grey <- "#7f7f7f"
+
+# Neutral color 3 "Light Gray"
+# RGB 230/230/230
+# HEX #e6e6e6
+
+col_Light Gray <- "#e6e6e6"
+
+# Neutral color 4 "Bronze Testudo"
+# RGB 179/114/49
+# HEX #ad7231
+
+col_Bronze Testudo <- "#ad7231"
+
+
+#' \code{uni_Maryland} uses the HEX color definition.
+#'
+#' @return
+#' A named vector of colors (HEX/HTML codes of type character).
+#'
+#' @author
+#' \strong{unicol}, 2023-07_02.
+#'
+#' @source
+#' Color definitions are based on the
+#' \href{https://brand.umd.edu/colors}.
+#'
+#' @examples
+#' uni_Maryland
+#' unikn::seecol(uni_Maryland, main = "Primary colors University of Maryland") # view color palette
+#'
+#' @family university color palettes
+#'
+#' @seealso
+#' \code{\link{seecol}} for viewing and comparing color palettes;
+#' \code{\link{usecol}} for using color palettes;
+#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link{grepal}} for finding named colors.
+#'
+#' @export
+
+# - etc.
+
+## eof. ----------
